@@ -1,0 +1,30 @@
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --teal: #00D2BE;
+  --teal-dim: rgba(0,210,190,0.12);
+  --teal-border: rgba(0,210,190,0.25);
+  --bg: #0a0a0a;
+  --bg2: #111111;
+  --bg3: #161616;
+  --text: #ffffff;
+  --text-muted: rgba(255,255,255,0.45);
+  --text-faint: rgba(255,255,255,0.2);
+  --border: rgba(255,255,255,0.07);
+  --red: #e03b3b;
+  --font-display: 'Barlow Condensed', sans-serif;
+  --font-body: 'Barlow', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { cursor: pointer; font-family: inherit; }
+a { text-decoration: none; }
